@@ -8,7 +8,7 @@ import java.net.UnknownHostException;
 public class ClientDemo {
     public static void main(String[] args) throws IOException, UnknownHostException {
         String hostname = "localhost";
-        int port = 8000;
+        int port = 6678;
 
         try (Socket socket = new Socket("localhost", 6678)) {
             System.out.println("Connected to the server");

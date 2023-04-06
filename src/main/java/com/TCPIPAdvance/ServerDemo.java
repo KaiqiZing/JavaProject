@@ -7,9 +7,9 @@ import java.net.Socket;
 
 public class ServerDemo {
     public static void main(String[] args) throws IOException {
-        int port = 8000;
+        int port = 6678;
 
-        try (ServerSocket serverSocket = new ServerSocket(6678)) {
+        try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Server is listening on port " + port);
 
             while (true) {
