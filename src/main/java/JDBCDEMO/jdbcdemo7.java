@@ -7,6 +7,19 @@ import java.util.List;
 /*
  * Ö´ÐÐDDLÓï¾ä
 */
+/*
+
+explain List<Emp> list = null;
+list = new ArrayList<Emp>();
+
+This code declares a List variable named "list" and initializes it to null. In Java, when a variable is initialized, it is assigned a default value of null, which means that the variable does not point to any object in memory.
+
+In the second line of code, the "list" variable is assigned a new ArrayList object that can store elements of the "Emp" type. This means that "list" now points to a new ArrayList object that can store Emp objects.
+
+By doing this, we have created an empty ArrayList object that can store Emp objects and assigned it to the "list" variable. We can now use the "list" variable to add Emp objects to the ArrayList or to remove Emp objects from the ArrayList or perform any other operation that is supported by the List interface.
+
+In summary, the code initializes a List variable to null and then creates an ArrayList object that can store Emp objects and assigns it to the List variable.
+*/
 public class jdbcdemo7 {
     public static void main(String[] args) {
         List<account> list1 = new jdbcdemo7().findAll();
